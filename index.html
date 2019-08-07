@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="weather.css" />
+    <title>Weather Interface</title>
+  </head>
+  <body>
+    <img src="https://source.unsplash.com/random/600×400/toronto" alt="" />
+    <section class="panel">
+      <header class="panel-header"></header>
+      <main class="panel-main">
+        <article class="inner-panel weather">
+          <h2>Temperature</h2>
+          <span id="temp" class="temp"></span>
+          <span id="icon" class="icon"></span>
+        </article>
+        <article class="inner-panel sunlight">
+          <h2>Sunlight</h2>
+          <span id="sun"></span>
+        </article>
+      </main>
+    </section>
+
+    <div id="loading" class="modal"></div>
+
+    <script src="weather.js"></script>
+  </body>
+</html>
